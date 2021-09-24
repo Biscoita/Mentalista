@@ -1,0 +1,82 @@
+body {
+  font-family: "helvetica";
+  min-height: 600px;
+  background-image: url(https://ih1.redbubble.net/image.1491858480.3137/flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg);
+  background-color: #000000;
+  background-size: 700px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.contador {
+  text-align: left;
+  color: #ffffff;
+  -webkit-text-stroke: 2px black;
+  text-stroke: 2px black;
+  font-size: 40px;
+}
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  font-size: 35px;
+  -webkit-text-stroke: 2px black;
+  text-stroke: 2px black;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  background: black;
+  color: white;
+  margin: 0 auto;
+  margin-top: 16px;
+  width: 18%;
+}
+
+.page-subtitle1 {
+  background: black;
+  color: white;
+  margin: 0 auto;
+  margin-top: 16px;
+  width: 15%;
+}
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 80px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.resultado {
+  color: #ffffff;
+  -webkit-text-stroke: 2px black;
+  text-stroke: 2px black;
+  font-size: 40px;
+}
